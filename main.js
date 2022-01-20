@@ -20,7 +20,7 @@ const pigLatin = (word) => {
   // array of vowels a e i o u
   const vowels = ['a', 'e', 'i', 'o', 'u', 'y'];
   // includes() - returns true if string contains a specified string otherwise false
-  if(vowels.includes(input[0])) {
+  if (vowels.includes(input[0])) {
     // should attach "yay" if word begins with vowel
     return input.concat('yay').join().replace(/,/g, '');
     // join() - returns array into string does change orignal array
@@ -30,8 +30,8 @@ const pigLatin = (word) => {
     //replaces ',' with spaces
   } else {
     // value of 0 - less than comparison of value - increment 
-    for(let i = 0; i < input.length; i++) {
-      if(vowels.indexOf(input[i]) !== -1) {
+    for (let i = 0; i < input.length; i++) {
+      if (vowels.indexOf(input[i]) !== -1) {
         // !== strict inequality
         const beforeVowel = input.splice(0, i)
         // splice() adds &/or removes array elements: overwrites original array
@@ -40,7 +40,7 @@ const pigLatin = (word) => {
       }
     }
   }
-} 
+}
 
 
 // the first function called in the program to get an input from the user
@@ -48,7 +48,7 @@ const pigLatin = (word) => {
 // to close it ctrl + C
 const getPrompt = () => {
   rl.question('word ', (answer) => {
-    console.log( pigLatin(answer) );
+    console.log(pigLatin(answer));
     getPrompt();
   });
 }
