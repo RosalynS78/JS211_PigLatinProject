@@ -1,0 +1,84 @@
+body {
+  background-image: url("pigbg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position-y: 80%;
+
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 60px;
+  color: whitesmoke;
+  text-shadow: 2px 2px salmon;
+}
+
+.whiteBox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-left: 110px;
+  width: 500px;
+  height: 230px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px salmon;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 10px;
+}
+
+.type-Input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  border-style: none;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 15px;
+  border: 0 none;
+  overflow: hidden;
+  outline: none;
+  width: 450px;
+  height: 225px;
+  resize: none;
+}
+
+.btn {
+  margin-left: 290px;
+}
+
+.whiteBox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 300px;
+  width: 500px;
+  height: 230px;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 10px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px salmon;
+}
+
+.type-Output {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  border-style: none;
+  font-family: 'Mochiy Pop P One', sans-serif;
+  font-size: 15px;
+  border: 0 none;
+  overflow: hidden;
+  outline: none;
+  width: 450px;
+  height: 225px;
+  resize: none;
+}
