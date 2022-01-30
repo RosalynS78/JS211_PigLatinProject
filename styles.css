@@ -21,7 +21,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 70px;
+  margin-top: 40px;
   margin-left: 110px;
   width: 500px;
   height: 230px;
@@ -37,6 +37,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-content: center;
+  text-align: center;
   border-style: none;
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size: 15px;
@@ -72,6 +73,7 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
+  text-align: center;
   border-style: none;
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size: 15px;
@@ -81,4 +83,12 @@ body {
   width: 450px;
   height: 225px;
   resize: none;
+}
+.piggy {
+  display: flex;
+  height: 80px;
+  margin: 0px;
+  padding: 0px;
+
+  
 }

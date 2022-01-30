@@ -16,8 +16,12 @@ const pigLatin = () => {
     }
   }
 }
-
+function play() {
+  let audio = document.getElementById("audioWree");
+  audio.play();
+}
 function reset() {
   document.getElementById('wordInput').value = '';
   document.getElementById('wordOutput').innerText = '';
 }
+
