@@ -23,8 +23,8 @@ body {
   align-items: center;
   margin-top: 40px;
   margin-left: 110px;
-  width: 500px;
-  height: 230px;
+  width: 400px;
+  height: 200px;
   background-color: white;
   border-radius: 20px;
   box-shadow: 0 0 10px salmon;
@@ -44,13 +44,14 @@ body {
   border: 0 none;
   overflow: hidden;
   outline: none;
-  width: 450px;
-  height: 225px;
+  width: 200px;
+  height: 150px;
   resize: none;
 }
 
 .btn {
-  margin-left: 290px;
+  margin-left: 260px;
+  padding: 0px;
 }
 
 .whiteBox2 {
@@ -60,8 +61,8 @@ body {
   align-items: center;
   margin-top: 50px;
   margin-left: 300px;
-  width: 500px;
-  height: 230px;
+  width: 400px;
+  height: 200px;
   font-family: 'Mochiy Pop P One', sans-serif;
   font-size: 10px;
   background-color: white;
@@ -80,15 +81,26 @@ body {
   border: 0 none;
   overflow: hidden;
   outline: none;
-  width: 450px;
-  height: 225px;
+  width: 200px;
+  height: 100px;
   resize: none;
 }
 .piggy {
   display: flex;
-  height: 80px;
-  margin: 0px;
+  flex-direction: row;
+  height: 40px;
+  margin: 80px;
   padding: 0px;
-
-  
+  transform: rotate(0deg);
 }
+
+.piggy:hover {
+	animation: seesaw .5s forwards;
+}
+@keyframes seesaw {
+  0% {transform: translateX(6px) rotate(3deg);}
+	30% {transform: translateX(-6px) rotate(-3deg);}
+	60% {transform: translateX(6px) rotate(3deg);}
+	90% {transform: translateX(-6px) rotate(-3deg);}
+}
+
